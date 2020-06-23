@@ -3,7 +3,7 @@ include(ExternalProject)
 ExternalProject_Add(
         webp
         PREFIX "${CMAKE_BINARY_DIR}/webp"
-        URL "http://downloads.webmproject.org/releases/webp/libwebp-0.6.0.tar.gz"
+        URL "https://github.com/webmproject/libwebp/archive/v0.6.0.tar.gz"
         # do not update
         UPDATE_COMMAND ""
         # compile with PIC because caffe builds a shared object
